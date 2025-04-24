@@ -1,2 +1,2 @@
 # DeepResearch-AI-System
-DeepResearch AI System is an research assistant that automates process of searching and gathering information from web and  summarize the information and present it to us
+DeepResearch AI System is an research assistant that automates process of searching and gathering information from web and  summarize the information and present it to us.Here user gives a input or query to the system then the request is carried to research agent where it gathers the information from live websites using TAVILY.Then the information gathered is summarized by the writer agent and presented to the user.And we used Langchain to call OpenAI's language model for summarization.
