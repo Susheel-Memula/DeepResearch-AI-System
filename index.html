@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deep Research AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Deep Research AI</h1>
+        <form method="POST">
+            <input type="text" name="query" placeholder="Enter your research topic" required>
+            <button type="submit">Search</button>
+        </form>
+        {% if result %}
+        <div class="output">
+            <h2>📄 Summary</h2>
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
